@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item >Hello World</item>
+        <item >Drag and Drop</item>
+        <item >Notifications</item>
+        <item >Get Location</item>
+        <item >Send Email</item>
+        <item >Send SMS</item>
+        <item >Call</item>
+        <item >Animation</item>
+        <item >Text To Speech</item>
+        <item >Alert Dialogue</item>
+        <item >Services</item>
+        <item >Bluetooth</item>
+        <item >Camera</item>
+        <item >Facebook</item>
+    </string-array>
+</resources>

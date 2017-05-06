@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">All In One</string>
+    <string name="title_activity_app1__hello_world">App1_HelloWorld</string>
+    <string name="title_activity_app2__drag_and_drop">App2_DragAndDrop</string>
+    <string name="title_activity_app3__notification">App3_Notification</string>
+    <string name="title_activity_app4__get_location">App4_GetLocation</string>
+    <string name="title_activity_app5__send_email">App5_SendEmail</string>
+    <string name="compose_email">Compose Email</string>
+    <string name="title_activity_app6__send_sms">App6_SendSMS</string>
+    <string name="title_activity_app7__call">App7_Call</string>
+    <string name="title_activity_app8__animation">App8_Animation</string>
+    <string name="title_activity_app9__text_to_speech">App9_TextToSpeech</string>
+    <string name="title_activity_app10__alert_dialouge">App10_AlertDialouge</string>
+    <string name="title_activity_app11__services">App11_Services</string>
+    <string name="title_activity_app12__bluetooth">App12_Bluetooth</string>
+    <string name="title_activity_app13__camera">App13_Camera</string>
+    <string name="title_activity_app14__facebook">App14_Facebook</string>
+    <string name="title_activity_app15__google_maps">App15_GoogleMaps</string>
+</resources>

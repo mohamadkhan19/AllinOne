@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msakslab.allinone">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App1_HelloWorld"
+            android:label="@string/title_activity_app1__hello_world"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App2_DragAndDrop"
+            android:label="@string/title_activity_app2__drag_and_drop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App3_Notification"
+            android:label="@string/title_activity_app3__notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App4_GetLocation"
+            android:label="@string/title_activity_app4__get_location"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App5_SendEmail"
+            android:label="@string/title_activity_app5__send_email"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App6_SendSMS"
+            android:label="@string/title_activity_app6__send_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App7_Call"
+            android:label="@string/title_activity_app7__call"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App8_Animation"
+            android:label="@string/title_activity_app8__animation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App9_TextToSpeech"
+            android:label="@string/title_activity_app9__text_to_speech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App10_AlertDialouge"
+            android:label="@string/title_activity_app10__alert_dialouge"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App11_Services"
+            android:label="@string/title_activity_app11__services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App12_Bluetooth"
+            android:label="@string/title_activity_app12__bluetooth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App13_Camera"
+            android:label="@string/title_activity_app13__camera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".App14_Facebook"
+            android:label="@string/title_activity_app14__facebook"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
